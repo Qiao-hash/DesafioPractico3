@@ -35,7 +35,7 @@ public class LineaVentaDAO {
             while (rs.next()) {
                 LineaVenta l = new LineaVenta();
                 l.setIdLinea(rs.getInt("id_linea"));
-                l.setLinea(rs.getString("Linea")); // ¡debe coincidir con el nombre de la columna!
+                l.setLinea(rs.getString("Linea")); 
                 lista.add(l);
             }
 
