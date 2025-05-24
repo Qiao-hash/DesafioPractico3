@@ -3,7 +3,7 @@ package sv.edu.udb.desafiopractico3.model;
 import java.util.Date;
 
 public class Venta {
-    private Integer idVenta;  // Cambiado de int a Integer
+    private Integer idVenta;  
     private int idLinea;
     private Date fechaVenta;
     private String descripcion;
