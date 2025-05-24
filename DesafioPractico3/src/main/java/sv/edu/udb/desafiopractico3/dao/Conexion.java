@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-// En la clase Conexion.java
 public class Conexion {
     public static Connection getConnection() throws SQLException {
         try {
